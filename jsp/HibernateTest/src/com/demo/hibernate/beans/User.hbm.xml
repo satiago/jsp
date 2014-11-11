@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+  "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.demo.hibernate.beans">
+	<class name="User" table="tb_user">
+		<id name="id" column="user_id">
+			<generator class="increment"></generator>
+		</id>
+		<property name="username" column="username" type="string"></property>
+		<property name="pwd" column="pwd" type="string"></property>
+		<property name="tel" column="tel" type="string"></property>
+		<property name="qq" column="qq" type="string"></property>
+		<property name="email" column="email" type="string"></property>
+		<property name="birthday" column="birthday" type="date"></property>
+		<property name="avatar" column="avatar" type="int"></property>
+		<property name="sex" column="sex" type="string"></property>
+	</class>
+</hibernate-mapping>

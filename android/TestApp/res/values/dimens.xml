@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- text  common -->
+    <dimen name="text_tab_size">12sp</dimen>
+    <dimen name="text_cat_size">13sp</dimen>
+    <dimen name="text_size">15sp</dimen>
+    <dimen name="text_btn_size">18sp</dimen>
+    <dimen name="text_hint_size">18sp</dimen>
+    <dimen name="text_title_size">20sp</dimen>
+    <dimen name="text_sort_size">12sp</dimen>
+    <dimen name="text_tab_sec_size">13sp</dimen>
+
+    <!-- layout -->
+    <dimen name="layout_height">42dp</dimen>
+    <dimen name="layout_edit_min_width">150dp</dimen>
+    <dimen name="layout_edit_max_width">200dp</dimen>
+
+    <!-- location map -->
+    <dimen name="text_location_size">13sp</dimen>
+
+    <!-- list -->
+    <dimen name="text_list_title_size">15sp</dimen>
+    <dimen name="text_list_sub_size">12sp</dimen>
+    <dimen name="text_list_pic_size">18sp</dimen>
+
+    <!-- list item -->
+    <dimen name="list_item_min_height_single_line_group">35dp</dimen>
+    <dimen name="list_item_min_height_single_line_child">45dp</dimen>
+    <dimen name="list_item_min_height_single_line">60dp</dimen>
+    <dimen name="list_item_min_height_two_line">70dp</dimen>
+    <dimen name="list_item_min_height_icon_line">75dp</dimen>
+
+</resources>

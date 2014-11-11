@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <com.demo.testapp.ui.FalseSearchTitleLayout
+        android:id="@+id/title_layout"
+        style="@style/MyLayoutTitle" >
+    </com.demo.testapp.ui.FalseSearchTitleLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/img_bg_tab_second" >
+
+        <RadioGroup
+            android:id="@+id/rg_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/rb_info_map"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sel_tab_sec_left"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/map"
+                android:textColor="@color/sel_tab_sec_text"
+                android:textSize="@dimen/text_tab_sec_size" />
+
+            <RadioButton
+                android:id="@+id/rb_info_list"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sel_tab_sec_right"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/list"
+                android:textColor="@color/sel_tab_sec_text"
+                android:textSize="@dimen/text_tab_sec_size" />
+        </RadioGroup>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:gravity="center_vertical"
+        android:paddingTop="10dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="@string/tab_name2"
+            android:textSize="@dimen/text_size" />
+
+        <RadioGroup
+            android:id="@+id/rg_sort"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/rb_sort0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:background="@drawable/img_btn_sort"
+                android:button="@null"
+                android:drawableRight="@drawable/img_arrow_down"
+                android:gravity="center_vertical"
+                android:padding="8dp"
+                android:text="@string/category"
+                android:textColor="@color/orange"
+                android:textSize="@dimen/text_sort_size" />
+
+            <RadioButton
+                android:id="@+id/rb_sort1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:background="@drawable/img_btn_sort"
+                android:button="@null"
+                android:drawableRight="@drawable/img_arrow_down"
+                android:gravity="center_vertical"
+                android:padding="8dp"
+                android:text="@string/distance"
+                android:textColor="@color/orange"
+                android:textSize="@dimen/text_sort_size" />
+
+            <RadioButton
+                android:id="@+id/rb_sort2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:background="@drawable/img_btn_sort"
+                android:button="@null"
+                android:drawableRight="@drawable/img_arrow_down"
+                android:gravity="center_vertical"
+                android:padding="8dp"
+                android:text="@string/price"
+                android:textColor="@color/orange"
+                android:textSize="@dimen/text_sort_size" />
+        </RadioGroup>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/divider" />
+
+    <TextView
+        android:id="@+id/textView_goods"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="@string/tab_name2" />
+
+    <FrameLayout
+        android:id="@+id/info_content"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" >
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/popup_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:text="popup" />
+
+</LinearLayout>
