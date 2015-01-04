@@ -1,8 +1,8 @@
-<%@page import="com.sun.source.tree.TryTree"%>
 <%@page import="javax.servlet.jsp.tagext.TryCatchFinally"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-
+<%@taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
+<fmt:requestEncoding value="utf-8" /><!-- 类似request.setCharacterEncoding("UTF-8"); -->
 <%
 request.setCharacterEncoding("UTF-8");
 response.setCharacterEncoding("UTF-8"); 

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC 
+	"-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" 
+	"http://struts.apache.org/dtds/struts-2.1.dtd" >
+<struts>
+	<!-- 前台登录 -->
+	<package name="shop.front" extends="shop-default">
+		<!-- 配置拦截器 -->
+<!-- 		<interceptors>
+			验证用户登录的拦截器
+			<interceptor name="loginInterceptor" class="com.lyq.action.interceptor.CustomerLoginInteceptor"/>
+			<interceptor-stack name="customerDefaultStack">
+				<interceptor-ref name="loginInterceptor"/>
+    				<interceptor-ref name="defaultStack"/>
+			</interceptor-stack>
+		</interceptors> -->
+		<action name="index" class="indexAction">
+            <result>/pages/index.jsp</result>
+        </action>
+	</package>
+</struts>
